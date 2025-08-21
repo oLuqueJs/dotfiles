@@ -18,4 +18,4 @@ theme=Atom
 background=#110e1a
 
 font-family=Jetbrains-Mono
-font-family-bold=Jetbrains
+font-family-bold=Jetbrains-Mono
