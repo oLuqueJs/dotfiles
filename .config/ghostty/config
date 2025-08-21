@@ -1,0 +1,21 @@
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# -----------------------------------------------------------------
+
+# < Style >
+
+# *Light Themes
+## dawnfox; farmhouse-light; Github-Light-Default; Material;
+
+# *Dark Themes
+## carbonfox; catppuccin-macchiato; ChallengerDeep; CutiePro flexoki-dark; IC_Orange_PPL; Atom;
+theme=Atom
+
+background=#110e1a
+
+font-family=Jetbrains-Mono
+font-family-bold=Jetbrains
