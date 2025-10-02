@@ -7,6 +7,7 @@ $git_state\
 $git_status\
 $nodejs\
 $java\
+$gradle\
 $docker_context\
 $cmd_duration\
 $line_break\
@@ -20,6 +21,7 @@ format = "[$user ]($style)"
 
 [hostname]
 ssh_only = true
+format = "on [$hostname](italic #88c0d0) "
 
 [directory]
 format = "[$path]($style fg:#5e81ac) "
@@ -28,3 +30,29 @@ read_only = " "
 [character]
 success_symbol = "[❯](bold #5e81ac)"
 error_symbol = "[✗](#bf616a)"
+
+[git_branch]
+style = "bold #a3be8c"
+
+[git_status]
+style = "#d08770"
+conflicted = "⚡ "
+ahead = "⇡${count}"
+behind = "⇣${count}"
+staged = "[++${count}](green)"
+untracked = "[?${count}](red)"
+
+[docker_context]
+symbol = " "
+style = "#458588"
+
+[java]
+symbol = " "
+style = "bold #d08770"
+format = 'via [$symbol$version]($style) '
+
+
+[gradle]
+symbol = " "
+style = "bold #a3be8c"
+format = '[$symbol$version]($style) '

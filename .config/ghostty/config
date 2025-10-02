@@ -8,14 +8,33 @@
 
 # < Style >
 
-# *Light Themes
+# Light Themes
 ## dawnfox; farmhouse-light; Github-Light-Default; Material;
 
-# *Dark Themes
+# Dark Themes
 ## carbonfox; catppuccin-macchiato; ChallengerDeep; CutiePro flexoki-dark; IC_Orange_PPL; Atom;
 theme=Atom
 
+# Background
 background=#110e1a
+background-opacity=0.9
+background-blur=20
 
+# Font
 font-family=Jetbrains-Mono
 font-family-bold=Jetbrains-Mono
+font-size=12.0
+
+# Cursor
+cursor-style-blink=true
+cursor-opacity=1
+
+# Window
+window-padding-x=10
+window-padding-y=10
+window-padding-balance=true
+
+
+# Performance & Others
+mouse-hide-while-typing=true
+minimum-contrast=1.1
