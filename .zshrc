@@ -1,7 +1,7 @@
 # Created by oLuqueJs in Debian Trixie
 
 # < Figlet >
-figlet -f Cosmike -w "$(tput cols)" "debian"| lolcat
+figlet -f sub-zero "Debian" | lolcat
  
 # < Paths >
 typeset -U path
