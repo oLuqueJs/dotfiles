@@ -2,13 +2,11 @@
 
 # < Figlet >
 figlet -f Cosmike -w "$(tput cols)" "debian"| lolcat
-
  
 # < Paths >
 typeset -U path
 path=("$HOME/.local/bin" "$HOME/bin" $path)
 export PATH
-
 
 # < NODE >
 # nvm
@@ -23,10 +21,8 @@ export PATH="$PNPM_HOME/global/bin:$PATH"
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
 
-
 # < Extra >
 alias ls='ls --color=auto'
-
 
 # < Sdkman >
 export SDKMAN_DIR="$HOME/.sdkman"
