@@ -6,6 +6,14 @@
 
 # -----------------------------------------------------------------
 
+# < Shell >
+command=zsh
+
+# < Window >
+window-height=40
+window-width=160
+resize-overlay=always
+
 # < Style >
 
 # Light Themes
